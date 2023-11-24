@@ -19,18 +19,18 @@ export default function Home() {
           in seconds.
         </h1>
         <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>
-          Intense AI brings your PDFs to life. It allows you to have conversations with any
+          Intense AI brings your documents to life. It allows you to have conversations with any
           PDF document. Simply upload your file and start
           asking questions right away.
         </p>
 
         <Link
-        href='/dashboard'
           className={buttonVariants({
             size: 'lg',
             className: 'mt-5',
-          })}          
-          >
+          })}
+          href='/dashboard'
+          target='_blank'>
           Get started{' '}
           <ArrowRight className='ml-2 h-5 w-5' />
         </Link>
