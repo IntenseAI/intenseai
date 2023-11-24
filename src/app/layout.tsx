@@ -1,4 +1,5 @@
 import Navbar from '@/components/Navbar'
+import { Analytics } from '@vercel/analytics/react';
 import Providers from '@/components/Providers'
 import { cn, constructMetadata } from '@/lib/utils'
 import { Inter } from 'next/font/google'
@@ -29,6 +30,7 @@ export default function RootLayout({
           <Toaster />
           <Navbar />
           {children}
+          <Analytics />
         </body>
       </Providers>
     </html>
