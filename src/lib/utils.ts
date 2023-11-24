@@ -16,8 +16,8 @@ export function absoluteUrl(path: string) {
 }
 
 export function constructMetadata({
-  title = "Intense AI - the SaaS for students and Reasearchers",
-  description = "Intense AI is an open-source software to bring your PDFs to life.",
+  title = "Intense AI - the SaaS for students and Researchers",
+  description = "Quill is an open-source software which brings your PDFs to life.",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
   noIndex = false
